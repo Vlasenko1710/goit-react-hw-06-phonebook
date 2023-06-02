@@ -8,12 +8,4 @@ export const List = styled.ul`
   flex-direction: column;
   gap: 10px;
 `;
-export const ContactItem = styled.li`
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 15px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px #bdbdbd;
-`;
+

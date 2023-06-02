@@ -1,5 +1,15 @@
 import styled from 'styled-components';
 
+export const ListItem = styled.li`
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #bdbdbd;
+`;
+
 export const ContactItemBtn = styled.button`
   cursor: pointer;
   border: none;
